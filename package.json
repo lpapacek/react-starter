@@ -2,7 +2,9 @@
   "scripts": {
     "api": "node ratingsAPI.js",
     "format": "prettier --list-different --print-width=120 --single-quote --use-tabs --write \"js/**/*.{js,jsx}\"",
-    "lint": "eslint --quiet **/*.{js,jsx}"
+    "lint": "eslint --quiet **/*.{js,jsx}",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "axios": "0.16.1",
